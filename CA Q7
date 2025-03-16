@@ -1,0 +1,22 @@
+//Embedded CA Q7
+
+#include "mbed"
+
+// Define LED pins 
+DigitalOut led1(LED1);
+DigitalOut led2(LED2);
+
+int main() {
+    // Infinite loop for continuous toggling
+    while (true) {
+        led1 = !led1;  // Toggle LED 1
+        led2 = !led2;  // Toggle LED 2
+
+    // Wait 2 second before next cycle
+{Led1
+        delay (2000);}
+    //Wait 5 seconds before next cycle
+{Led2
+        delay(5000);
+    }
+}
